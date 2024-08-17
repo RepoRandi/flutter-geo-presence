@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "305706177585",
+    "project_id": "geo-presence-8d370",
+    "storage_bucket": "geo-presence-8d370.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305706177585:android:827d53a8263fd813a37110",
+        "android_client_info": {
+          "package_name": "com.apps.geo_presence"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEUhWW05H9lVMKDyveGH2vXkB-JeSpM0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305706177585:android:3f4346d177857e1ba37110",
+        "android_client_info": {
+          "package_name": "com.apss.geo_presence"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEUhWW05H9lVMKDyveGH2vXkB-JeSpM0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

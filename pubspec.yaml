@@ -1,0 +1,60 @@
+name: geo_presence
+description: 'A new Flutter project.'
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+    sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+    antifakegps: ^0.0.2
+    bloc: ^8.1.4
+    calendar_timeline_sbk: ^1.1.7
+    camera: ^0.11.0+1
+    cupertino_icons: ^1.0.6
+    dartz: ^0.10.1
+    dotted_border: ^2.1.0
+    firebase_core: ^3.1.1
+    firebase_messaging: ^15.0.2
+    flutter:
+        sdk: flutter
+    flutter_bloc: ^8.1.6
+    flutter_local_notifications: ^17.2.1
+    flutter_svg: ^2.0.10+1
+    freezed_annotation: ^2.4.1
+    google_fonts: ^6.2.1
+    google_maps_flutter: ^2.6.1
+    google_mlkit_commons: ^0.7.1
+    google_mlkit_face_detection: ^0.11.0
+    http: ^1.2.1
+    image: ^4.2.0
+    image_picker: ^1.1.2
+    intl: ^0.18.1
+    location: ^6.0.1
+    permission_handler: ^8.2.2
+    shared_preferences: ^2.2.3
+    tflite_flutter: ^0.10.4
+
+dev_dependencies:
+    build_runner: ^2.4.11
+    flutter_gen_runner: ^5.5.0+1
+    flutter_lints: ^3.0.0
+    flutter_test:
+        sdk: flutter
+    freezed: ^2.5.2
+
+flutter:
+    uses-material-design: true
+    assets:
+        - assets/
+        - assets/images/
+        - assets/icons/
+        - assets/icons/menu/
+        - assets/icons/nav/
+
+flutter_gen:
+    output: lib/core/assets/
+    integrations:
+        flutter_svg: true
